@@ -24,17 +24,17 @@ The base Laravel CRUD application was created by Programming-Mindset. You can fi
 
 ## Quick Start with Docker Hub
 
-You can pull the pre-built image directly from Docker Hub:
+1. You can pull the pre-built image directly from Docker Hub:
 
-```bash
-docker pull abelmsg/laravel12-crud:latest
-```
+    ```bash
+    docker pull abelmsg/laravel12-crud:latest
+    ```
 
-Then run it:
+2. Then run it:
 
-```bash
-docker run -p 80:80 abelmsg/laravel12-crud:latest
-```
+    ```bash
+    docker run -p 80:80 abelmsg/laravel12-crud:latest
+    ```
 
 ## Building Locally
 
