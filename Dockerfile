@@ -45,6 +45,4 @@ COPY .env.example .env
 
 RUN php artisan key:generate
 
-EXPOSE 8000
-
 CMD ["docker/scripts/start.sh"]
